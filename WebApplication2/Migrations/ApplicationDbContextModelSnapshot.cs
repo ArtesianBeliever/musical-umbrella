@@ -376,9 +376,6 @@ namespace WebApplication2.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("ProductId"));
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("integer");
-
                     b.Property<string>("Description")
                         .HasColumnType("text");
 
@@ -397,15 +394,12 @@ namespace WebApplication2.Migrations
 
                     b.HasKey("ProductId");
 
-                    b.HasIndex("CategoryId");
-
                     b.ToTable("Products");
 
                     b.HasData(
                         new
                         {
                             ProductId = 1,
-                            CategoryId = 2,
                             Description = "Beef Taco",
                             ImageUrl = "https://via.placeholder.com/150",
                             Name = "Beef Taco",
@@ -415,7 +409,6 @@ namespace WebApplication2.Migrations
                         new
                         {
                             ProductId = 2,
-                            CategoryId = 2,
                             Description = "Chicken Taco",
                             ImageUrl = "https://via.placeholder.com/150",
                             Name = "Chicken Taco",
@@ -425,12 +418,43 @@ namespace WebApplication2.Migrations
                         new
                         {
                             ProductId = 3,
-                            CategoryId = 2,
                             Description = "Fish Taco",
                             ImageUrl = "https://via.placeholder.com/150",
                             Name = "Fish Taco",
                             Price = 2.50m,
                             Stock = 90
+                        });
+                });
+
+            modelBuilder.Entity("WebApplication2.Models.ProductCategory", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("ProductId", "CategoryId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("ProductCategories");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductId = 1,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            ProductId = 2,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            ProductId = 3,
+                            CategoryId = 2
                         });
                 });
 
@@ -590,15 +614,23 @@ namespace WebApplication2.Migrations
                     b.Navigation("Product");
                 });
 
-            modelBuilder.Entity("WebApplication2.Models.Product", b =>
+            modelBuilder.Entity("WebApplication2.Models.ProductCategory", b =>
                 {
                     b.HasOne("WebApplication2.Models.Category", "Category")
-                        .WithMany("Products")
+                        .WithMany("ProductCategories")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("WebApplication2.Models.Product", "Product")
+                        .WithMany("ProductCategories")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Category");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("WebApplication2.Models.ProductIngredient", b =>
@@ -627,7 +659,7 @@ namespace WebApplication2.Migrations
 
             modelBuilder.Entity("WebApplication2.Models.Category", b =>
                 {
-                    b.Navigation("Products");
+                    b.Navigation("ProductCategories");
                 });
 
             modelBuilder.Entity("WebApplication2.Models.Ingredient", b =>
@@ -643,6 +675,8 @@ namespace WebApplication2.Migrations
             modelBuilder.Entity("WebApplication2.Models.Product", b =>
                 {
                     b.Navigation("OrderItems");
+
+                    b.Navigation("ProductCategories");
 
                     b.Navigation("ProductIngredients");
                 });

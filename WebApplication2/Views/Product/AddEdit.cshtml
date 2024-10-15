@@ -7,7 +7,7 @@
 <h1>@ViewBag.Operation Menu Item</h1>
 <form asp-action="AddEdit" method="post" enctype="multipart/form-data">
     <input type="hidden" asp-for="ProductId"/>
-    <input type="hidden" asp-for="CategoryId"/>
+    
     <div class="form-group">
         <label asp-for="Name"></label>
         <input asp-for="Name" class="form-control" name="Name"></input>
@@ -38,10 +38,10 @@
             {
                 <div class="form-check">
                     @{
-                        bool isChecked = Model.CategoryId == category.CategoryId;
+                        bool isChecked = Model.ProductCategories != null && Model.ProductCategories.Any(c => c.CategoryId == category.CategoryId);
                     }
-                    <input type="radio" class="form-check-input" id="@category.CategoryId" name="catId" value="@category.CategoryId" @(isChecked ? "checked" : "")/> @category.Name
-                </div>
+                    <input type="checkbox" class="form-check-input" id="@category.CategoryId" name="categoryIds" value="@category.CategoryId" @(isChecked ? "checked" : "")/>
+                    <label class="form-check-label" for="@category.CategoryId">@category.Name</label>                </div>
             }
         </div>
         <div class="col">

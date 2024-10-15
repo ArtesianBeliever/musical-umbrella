@@ -17,11 +17,12 @@ namespace WebApplication2.Data
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Ingredient> Ingredients {get; set;}
         public DbSet<ProductIngredient> ProductIngredients{get; set;}
+        public DbSet<ProductCategory> ProductCategories {get; set;}
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            // Composite key
+            // Composite key Products to Ingredients
             builder.Entity<ProductIngredient>()
                 .HasKey(pi => new { pi.ProductId, pi.IngredientId });
             
@@ -34,6 +35,19 @@ namespace WebApplication2.Data
                 .HasOne(pi => pi.Product)
                 .WithMany(p => p.ProductIngredients)
                 .HasForeignKey(pi => pi.ProductId);
+            // Composite Key Products to Categories
+            builder.Entity<ProductCategory>()
+                .HasKey(pc => new { pc.ProductId, pc.CategoryId });
+            
+            builder.Entity<ProductCategory>()
+                .HasOne(pc => pc.Category)
+                .WithMany(c => c.ProductCategories)
+                .HasForeignKey(pc => pc.CategoryId);
+            
+            builder.Entity<ProductCategory>()
+                .HasOne(pc => pc.Product)
+                .WithMany(p => p.ProductCategories)
+                .HasForeignKey(pc => pc.ProductId);
             //Seed Data
             builder.Entity<Category>().HasData(
                 new Category { CategoryId = 1, Name = "Appetizer" },
@@ -57,8 +71,7 @@ namespace WebApplication2.Data
                     Name = "Beef Taco",
                     Description = "Beef Taco",
                     Price = 2.50m,
-                    Stock = 100,
-                    CategoryId = 2
+                    Stock = 100
                 },
 
                 new Product()
@@ -67,8 +80,7 @@ namespace WebApplication2.Data
                     Name = "Chicken Taco",
                     Description = "Chicken Taco",
                     Price = 1.90m,
-                    Stock = 102,
-                    CategoryId = 2
+                    Stock = 102
                 },
                 new Product()
                 {
@@ -76,8 +88,7 @@ namespace WebApplication2.Data
                     Name = "Fish Taco",
                     Description = "Fish Taco",
                     Price = 2.50m,
-                    Stock = 90,
-                    CategoryId = 2
+                    Stock = 90
                 }
             );
             builder.Entity<ProductIngredient>().HasData(
@@ -95,6 +106,11 @@ namespace WebApplication2.Data
                 new ProductIngredient() {ProductId = 3, IngredientId = 4},
                 new ProductIngredient() {ProductId = 3, IngredientId = 5},
                 new ProductIngredient() {ProductId = 3, IngredientId = 6}
+            );
+            builder.Entity<ProductCategory>().HasData(
+                new ProductCategory() { ProductId = 1, CategoryId = 2 },
+                new ProductCategory() { ProductId = 2, CategoryId = 2 },
+                new ProductCategory() { ProductId = 3, CategoryId = 2 }
             );
         }
     }
