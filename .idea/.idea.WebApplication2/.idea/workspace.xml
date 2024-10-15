@@ -9,7 +9,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ccb6215-533f-4049-9f19-4ad9c7094ea5" name="Changes" comment="" />
+    <list default="true" id="1ccb6215-533f-4049-9f19-4ad9c7094ea5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication2/.idea/dataSources/088d126d-5baa-49a4-acee-132006143825.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication2/.idea/dataSources/088d126d-5baa-49a4-acee-132006143825.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication2/.idea/dataSources/088d126d-5baa-49a4-acee-132006143825/storage_v2/_src_/database/task2.TXuQBg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication2/.idea/dataSources/088d126d-5baa-49a4-acee-132006143825/storage_v2/_src_/database/task2.TXuQBg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Controllers/ProductController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Models/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Models/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Models/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Models/Order.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Models/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/Views/Product/AddEdit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/Views/Product/AddEdit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/bin/Debug/net8.0/WebApplication2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/bin/Debug/net8.0/WebApplication2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/bin/Debug/net8.0/WebApplication2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/bin/Debug/net8.0/WebApplication2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/bin/Debug/net8.0/WebApplication2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/bin/Debug/net8.0/WebApplication2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/bin/Debug/net8.0/WebApplication2.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/bin/Debug/net8.0/WebApplication2.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/WebApplication2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/WebApplication2.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/WebApplication2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/WebApplication2.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/WebApplication2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/WebApplication2.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/WebApplication2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/WebApplication2.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/WebApplication2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/WebApplication2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/WebApplication2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/WebApplication2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/ref/WebApplication2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/ref/WebApplication2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/refint/WebApplication2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/refint/WebApplication2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/staticwebassets/msbuild.WebApplication2.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/Debug/net8.0/staticwebassets/msbuild.WebApplication2.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication2/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/wwwroot/images/4dde4b20-229e-4239-9c43-8fbd3f7416e5_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication2/wwwroot/images/644f140c-da0e-49a8-ba7d-e75f59f853bb_Illustration158.png" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,10 +51,38 @@
   <component name="DpaMonitoringSettings">
     <option name="autoShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ArtesianBeliever&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ArtesianBeliever/musical-umbrella.git&quot;,
+    &quot;accountId&quot;: &quot;17fc0050-e5b9-4a17-8c27-cfaba42434ef&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$APPLICATION_HOME_DIR$/lib/app.jar!/resources/html5-schema/html5/web-forms2.rnc" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/294078ecfce6fdb942ecfee089f09717de7a6fcfe5efd9fdb6f4f93c0fb4813/ActionMethodExecutor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2e49d132ea68ff47071c64476ae29138fa965dc555ef7c3f4991586431de241/Task.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/36f346b6c0454bc8a6afa7aed38119fe5bbffcc983298d9bfa4dbd5f49461f/Monitor.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8be3a835a33b22749161cd57a7225ef65e0c61c64c2bfd969e2e404130dd/Controller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/96178db1709e872c391367fef1b31fca80f9f18119cdf4145a2650ac9f332ac/Array.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9eda537f15ea23cdfae523c19e87eb303a3ded88937ae7e55919387a43f70/ExecutionContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b86cdfe19de105ff2eab7d5d4c613fd91b9adfe4f95bd82e2d6db593e6d3ca3/TaskContinuation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fb367341658aaedd7de424d4c9189db33c4387e268dcc4011918569442ab12/AsyncTaskMethodBuilderT.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -30,23 +91,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.WebApplication2: http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.WebApplication2: http.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "fixes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.WebApplication2: http">
     <configuration name="WebApplication2: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApplication2/WebApplication2.csproj" />
@@ -116,61 +178,39 @@
       <workItem from="1728483359870" duration="170000" />
       <workItem from="1728483565324" duration="4504000" />
       <workItem from="1728578702615" duration="84000" />
-      <workItem from="1728578800383" duration="6252000" />
+      <workItem from="1728578800383" duration="8388000" />
+      <workItem from="1728634128718" duration="688000" />
+      <workItem from="1728634829537" duration="2672000" />
+      <workItem from="1728969125730" duration="98000" />
+      <workItem from="1728977709226" duration="9344000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/WebApplication2/Controllers/ProductController.cs</url>
-          <line>77</line>
-          <properties documentPath="C:\Users\USER\RiderProjects\WebApplication2\WebApplication2\Controllers\ProductController.cs" containingFunctionPresentation="Method 'AddEdit'">
-            <startOffsets>
-              <option value="2708" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2816" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/WebApplication2/Controllers/ProductController.cs</url>
-          <line>76</line>
-          <properties documentPath="C:\Users\USER\RiderProjects\WebApplication2\WebApplication2\Controllers\ProductController.cs" containingFunctionPresentation="Method 'AddEdit'">
-            <startOffsets>
-              <option value="2686" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2687" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/WebApplication2/Controllers/ProductController.cs</url>
-          <line>75</line>
-          <properties documentPath="C:\Users\USER\RiderProjects\WebApplication2\WebApplication2\Controllers\ProductController.cs" containingFunctionPresentation="Method 'AddEdit'">
-            <startOffsets>
-              <option value="2636" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2669" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#System.Exception" memberName="InnerException" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
